@@ -44,13 +44,6 @@
             FontColor = "#FFFFFF"
         }
 
-        'main' = @{
-            'padding-left' = "50px"
-            'padding-right' = "50px"
-            'padding-top' = "50px"
-            'padding-bottom' = "50px"
-        }
-
         'p' = @{
             'color' = '#FFFFFF !important'
         }
@@ -88,7 +81,10 @@
         }
         
         '.pagination li a'= @{
-            'color' = "#FFFFFF !important"
+            'color' = "#FFFFFF"
+        }
+        '.pagination li.active'= @{
+            'background-color' = "#252525"
         }
         ".ud-navbar"= @{
             'width' = "100%"
@@ -141,7 +137,6 @@
             'color' = "#FFFFFF"
         }
         '.collapsible-header'= @{
-            'color' = "#FFFFFF"
             'background-color' = "#272C33"
             'border-bottom' = '1px solid #1c1c1c;'
             'border-bottom-width' = '1px;'
@@ -171,19 +166,10 @@
         'img' = @{
             'float'= "left"
         }
-        '.pagination li.active' = @{
-            'background-color' = "#FFFFFF"
-        }
         
         '.sidenav .collapsible-header'= @{
             'color'= "#fff !important"
             'background-color' = "#1c1c1c !important"
-        }
-
-        '.sidenav .collapsible li, .sidenav.fixed .collapsible li ' = @{
-            'background-color' = "#252525"
-            'z-index' = "0"
-            'color'= "#FFF"
         }
         
         '.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating)'= @{
@@ -210,8 +196,6 @@
             'display' = "block"
             'margin-bottom' = "5%"
         }
-
-        
 
     }
 }
